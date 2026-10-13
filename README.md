@@ -1,82 +1,36 @@
-# OpsQuiz — MVP PWA
+# OpsQuiz 1.1 - Question Quality Update
 
-Applicazione statica, offline-ready, per quiz di Operations Management. Nessun account, nessun backend e nessun tracker. Progressi salvati nel `localStorage` del browser. Include 43 domande preliminari del capitolo 1 di *Operations Management* (Jacobs & Chase, edizione italiana) derivate dalle schede tratte dalla scansione del libro (pagine 3–21).
+PWA statica per lo studio del capitolo 1 di *Operations Management* di Jacobs e Chase. Contiene 43 quesiti verificati sulla scansione del capitolo fornita dall'utente (pagine stampate 3-21). Domande, alternative e spiegazioni sono riformulazioni: nell'app sono marcate **Parafrasi del manuale** e ciascuna indica capitolo, sezione e pagina. Non sono incluse pagine del PDF.
 
-## Avvio e installazione
+## Pubblicare su GitHub Pages
 
-Non basta aprire `index.html` direttamente dalla cartella: le fetch JSON e il service worker richiedono un server.
+1. Prima della sostituzione, apri la PWA attuale ed esporta i progressi dal riquadro **I tuoi dati**. È una copia di sicurezza, anche se l'aggiornamento mantiene lo stesso archivio locale.
+2. Apri il repository [Mauro737373/opsquiz](https://github.com/Mauro737373/opsquiz) e vai alla radice del ramo che alimenta Pages (normalmente `main`).
+3. Estrai questo ZIP sul computer. Carica **il contenuto della cartella `operations-quiz-pwa`**, non la cartella stessa, nella radice del repository. Sostituisci i file con lo stesso nome: `index.html`, `style.css`, `app.js`, `questions.json`, `sw.js`, `manifest.webmanifest`, `README.md` e `icons/`.
+4. Registra le modifiche con **Commit changes**. Il repository dovrebbe già avere Pages attivo; controlla in **Settings > Pages** che la fonte punti al ramo e alla directory `/ (root)` corretti.
+5. Dopo la pubblicazione, apri <https://mauro737373.github.io/opsquiz/> e ricarica la pagina. Se la PWA installata mostra ancora la versione precedente, chiudila e riaprila online; il service worker `opsquiz-static-v1.1` sostituirà la cache precedente. Aggiornare la pagina una seconda volta può essere necessario se la prima visita ha avviato l'installazione del nuovo service worker.
+6. Controlla che l'intestazione mostri **1.1 · Offline**, che la libreria contenga **43 domande** e che, dopo una risposta in modalità studio, appaiano spiegazione, dicitura **Parafrasi del manuale** e riferimento a sezione e pagina.
 
-### Prova locale su PC
+Non caricare il PDF nel repository pubblico. GitHub Pages espone tutti i file del progetto.
 
-Da questa cartella esegui:
+## Avvio locale
 
-```bash
-python -m http.server 8000
-```
+Apri un terminale nella cartella `operations-quiz-pwa` ed esegui `python -m http.server 8000`, quindi visita `http://localhost:8000`. L'apertura diretta di `index.html` come file locale non consente il caricamento JSON o il service worker.
 
-Apri `http://localhost:8000`. Per installare la PWA su PC, usa l'opzione *Installa app* del browser Chromium/Edge, se disponibile.
+## Modalità e dati
 
-### Pubblicazione gratuita via GitHub Pages (HTTPS)
+- **Studio:** la spiegazione appare subito dopo ogni risposta, insieme al riferimento al manuale.
+- **Esame:** le soluzioni e le spiegazioni appaiono nella revisione finale, per non rivelare la risposta durante la prova.
+- Restano disponibili quiz casuali, per sezione, ripasso degli errori, statistiche locali, esportazione e importazione dei progressi e importazione di ulteriori set JSON.
+- I risultati continuano a usare la chiave locale `opsquiz-v1` e gli stessi 43 ID. I punteggi precedenti sono conservati, ma non ricalcolati sulle domande aggiornate. Un avviso nella libreria segnala la presenza di risultati delle versioni precedenti. La cancellazione dei progressi elimina solo le statistiche e non le domande importate.
+- L'app non invia risultati a un server e non sincronizza dispositivi diversi. Per trasferire i progressi, usa Esporta e Importa progressi.
 
-1. Crea un repository GitHub (per semplicità `opsquiz`).
-2. Carica **il contenuto** di questa cartella nella radice del repository (`index.html`, `questions.json`, `app.js`, ecc.).
-3. Vai in **Settings → Pages → Build and deployment → Deploy from a branch**.
-4. Seleziona il branch `main` e la directory `/ (root)` e salva.
-5. Visita l'URL HTTPS di GitHub Pages che GitHub mostra (di solito `https://<utente>.github.io/opsquiz/`).
-6. Da iPhone, apri l'URL in Safari, usa **Condividi → Aggiungi alla schermata Home**. Per le funzioni offline, apri l'app una volta mentre sei online.
+## Verifica delle fonti
 
-**Nota sulla privacy e il copyright:** GitHub Pages pubblica i dati del sito. Questo pacchetto include domande rielaborate, non il PDF integrale. Non caricare scansioni di manuali o dati riservati nel repository pubblico. La PWA non invia i tuoi progressi a GitHub o a un server applicativo.
+La scansione comprende le pagine 3-21, con pagina 5 duplicata. I 43 quesiti finali sono stati confrontati con le pagine visibili. La precedente **JC01-037** attribuiva il Just in Time a Toyota, ma la pagina 15 non fa questa attribuzione: il quesito è stato sostituito con uno sul rapporto fra JIT e controllo della qualità totale, documentato nella stessa pagina. **JC01-019** è stato rifatto sulla seconda differenza fra beni e servizi, leggibile a pagina 8. Per **JC01-027** il riferimento più preciso è pagina 12, che riporta l'esempio dello sportello bancario. Non rimangono quesiti segnalati come non verificati nel set finale.
 
-## Funzioni incluse
+## Formato di nuove domande
 
-- Libreria per argomenti/sottocapitoli.
-- Quiz a risposta multipla con quattro opzioni, una corretta.
-- Feedback immediato e modalità esame.
-- Correzione e risultato finale con pagina del libro.
-- Modalità errori da ripassare, fino a risposta corretta successiva.
-- Statistiche locali.
-- Salvataggio locale persistente ed esportazione/importazione progressi JSON.
-- Importazione di set di domande in JSON con controllo minimo dello schema.
-- Cache offline con Service Worker (dopo il primo accesso online).
+Il file JSON deve contenere un array `questions`. Ogni elemento deve avere almeno: `id` univoco, `chapter`, `section`, `page`, `question`, quattro `options` distinte, indice `correct` fra 0 e 3, `explanation`. `book`, `kind` e `status` sono facoltativi. Le spiegazioni importate sono mostrate come **Spiegazione importata**, poiché non sono state verificate insieme al set del capitolo 1.
 
-## Limiti del primo MVP
-
-- **Non genera automaticamente quiz dai PDF dentro il browser.** Le scansioni vanno elaborate separatamente e convertite in `questions.json`; il file JSON può essere importato dall'interfaccia. Questa scelta serve anche a controllare le citazioni e gli errori nelle scansioni.
-- Domande e risposte corrette del primo set derivano da una versione precedente delle schede di studio, ma **non sono state verificate una a una con trascrizione OCR e confronto editoriale formale**. La pagina originale è sempre indicata. Le alternative scorrette sono formulate appositamente; non sono citazioni dirette.
-- Nessuna sincronizzazione automatica tra iPhone e PC: per spostare i risultati, usare Esporta/Importa progressi.
-- Se cambi i file JS/JSON dopo la pubblicazione, incrementa `CACHE` in `sw.js` affinché il nuovo contenuto offline venga riscaricato.
-
-## Schema di importazione nuove domande
-
-```json
-{
-  "questions": [
-    {
-      "id": "JC02-001",
-      "book": "Jacobs & Chase · Operations Management",
-      "chapter": "Capitolo 2",
-      "section": "2.1 - Titolo nel libro",
-      "page": 24,
-      "question": "Domanda controllata sul PDF?",
-      "options": ["Risposta corretta", "Distrattore A", "Distrattore B", "Distrattore C"],
-      "correct": 0,
-      "explanation": "Risposta corretta, coerente con il testo e verificabile alla pagina indicata.",
-      "kind": "Concetto",
-      "status": "Verificata"
-    }
-  ]
-}
-```
-
-`correct` è l'indice della risposta giusta (0–3). Ogni ID deve essere univoco. Dopo aver importato un JSON nell'app, i quiz si aggiungono alla libreria **del browser corrente**. Per distribuire gli stessi nuovi quiz su tutti i dispositivi, unisci le nuove domande al file `questions.json` e pubblica una nuova versione con cache aggiornata.
-
-## Struttura
-
-- `index.html`: pagina iniziale.
-- `style.css`: grafica responsive.
-- `app.js`: quiz, salvataggio, report, import/export.
-- `questions.json`: banca dati iniziale.
-- `sw.js`: cache offline.
-- `manifest.webmanifest` e `icons/`: installazione come PWA.
-
-Questo progetto è un prototipo personale di studio, non un prodotto ufficiale degli editori dei manuali.
+Il progetto è un supporto personale allo studio e non un prodotto ufficiale dell'editore.

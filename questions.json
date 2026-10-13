@@ -1,170 +1,179 @@
 {
   "schema": 1,
-  "setId": "jacobs-chase-cap1-v1",
-  "title": "Operations Management · Capitolo 1",
-  "source": "Scansione del capitolo 1, pp. 3–21; una pagina 5 duplicata; quesiti rielaborati dalle schede di studio e soggetti a verifica",
+  "setId": "jacobs-chase-cap1-v1.1",
+  "title": "Operations Management · Capitolo 1 · Question Quality Update",
+  "source": "Jacobs e Chase, Operations Management, capitolo 1, pp. 3–21, PDF scansionato fornito dall'utente. Spiegazioni in parafrasi; nessuna citazione testuale.",
   "questions": [
     {
       "id": "JC01-001",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 4,
-      "question": "Che cosa comprende l’Operations e Supply Chain Management (OSCM)?",
+      "question": "Quale attività rientra nella definizione di OSCM data dal manuale?",
       "options": [
-        "L'acquisto e la vendita esclusivamente di beni fisici",
-        "La progettazione, realizzazione e miglioramento dei sistemi aziendali che realizzano e distribuiscono i prodotti e i servizi dell’impresa.",
-        "La sola gestione delle scorte nei magazzini",
-        "La sola distribuzione dei prodotti finiti"
+        "Controllare i flussi finanziari e fissare il budget annuale dei reparti in ogni sede.",
+        "Studiare i mercati e pianificare le campagne promozionali dei prodotti.",
+        "Progettare, realizzare e migliorare sistemi che creano e distribuiscono l'offerta.",
+        "Gestire le vendite e definire i contratti commerciali con i clienti."
       ],
-      "correct": 1,
-      "explanation": "La progettazione, realizzazione e miglioramento dei sistemi aziendali che realizzano e distribuiscono i prodotti e i servizi dell’impresa.",
+      "correct": 2,
+      "explanation": "Il testo definisce l'OSCM attraverso la progettazione, la realizzazione e il miglioramento dei sistemi aziendali che producono e distribuiscono beni e servizi. La definizione riguarda quindi l'intero sistema operativo, mentre marketing e finanza sono funzioni con responsabilità distinte. La risposta riassume tale definizione senza riprodurla letteralmente.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-002",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 4,
-      "question": "Quali tre funzioni aziendali principali vengono distinte nel testo?",
+      "question": "Quale terna distingue l'OSCM dalle altre funzioni citate nel testo?",
       "options": [
-        "Acquisti, vendite e distribuzione",
-        "Contabilità, risorse umane e manutenzione",
-        "Marketing, finanza e operations.",
-        "Produzione, logistica e qualità"
+        "Marketing, finanza e operations e supply chain management.",
+        "Marketing, contabilità e controllo di qualità aziendale.",
+        "Acquisti, produzione e distribuzione ai clienti finali.",
+        "Finanza, risorse umane e sistemi informativi aziendali."
       ],
-      "correct": 2,
-      "explanation": "Marketing, finanza e operations.",
+      "correct": 0,
+      "explanation": "All'inizio della sezione, gli autori collocano l'OSCM accanto a marketing e finanza come funzione d'impresa con responsabilità gestionali proprie. Acquisti, produzione e distribuzione sono invece attività o processi che attraversano l'ambito operativo. La distinzione serve a delimitare il campo di studio del capitolo.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-004",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 4,
-      "question": "A quale prodotto si riferisce l’esempio della rete di produzione nella figura 1.1?",
+      "question": "Quale prodotto è rappresentato nel network della figura 1.1?",
       "options": [
-        "A un parka realizzato con materiali Supplex e Polartec.",
-        "Un automobile Toyota costruita in Giappone",
-        "Un hamburger venduto in un fast-food",
-        "Un aeroplano assemblato per un servizio passeggeri"
+        "Un'automobile assemblata con componenti provenienti da Paesi diversi.",
+        "Un servizio telefonico realizzato attraverso più centri di assistenza.",
+        "Una collezione di abiti distribuita da più catene di negozi.",
+        "Un parka Supplex confezionato con materiali Supplex e Polartec."
       ],
-      "correct": 0,
-      "explanation": "A un parka realizzato con materiali Supplex e Polartec.",
+      "correct": 3,
+      "explanation": "La figura 1.1 segue i percorsi dei materiali utilizzati per un parka da uomo Supplex. Il testo descrive, tra gli altri, la lavorazione dell'isolante Polartec e del nylon Supplex prima dell'assemblaggio. L'esempio serve a mostrare come più lavorazioni e imprese confluiscano in un prodotto finale.",
       "kind": "Esempio",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-005",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 5,
-      "question": "Che cosa rappresentano i punti o nodi della supply network dell’esempio del parka?",
+      "question": "Che cosa avviene nei punti di stoccaggio del network del parka?",
       "options": [
-        "I mezzi di trasporto usati per consegnare i prodotti",
-        "Punti nei quali materiali e informazioni vengono immagazzinati per utilizzi futuri.",
-        "Soltanto le fabbriche in cui i parka sono cuciti",
-        "Esclusivamente i punti vendita al dettaglio"
+        "I materiali vengono lavorati fino a ottenere il capo completo pronto alla vendita.",
+        "Conservano materiali e informazioni per usi futuri.",
+        "I prodotti finiti sono venduti direttamente al cliente finale.",
+        "Le imprese definiscono il prezzo finale dei singoli capi."
       ],
       "correct": 1,
-      "explanation": "Punti nei quali materiali e informazioni vengono immagazzinati per utilizzi futuri.",
+      "explanation": "Descrivendo il network come un condotto di materiali e informazioni, il manuale segnala punti in cui questi vengono immagazzinati per un uso futuro. Cita, per esempio, materiali conservati prima delle lavorazioni e pacchi stoccati prima dell'assemblaggio. Lo stoccaggio è quindi una tappa del flusso, non la trasformazione finale.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-006",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 5,
-      "question": "Quali attività concludono il processo distributivo descritto per il parka?",
+      "question": "Quale sequenza chiude la distribuzione del parka nell'esempio?",
       "options": [
-        "La cucitura e l'assemblaggio dei materiali",
-        "La previsione della domanda e la scelta della capacità",
-        "Prelievo secondo l’ordine effettivo, imballaggio e spedizione al cliente finale.",
-        "La selezione dei fornitori, la negoziazione e il pagamento"
+        "Lavorazione del nylon, taglio dei tessuti e cucitura delle parti.",
+        "Scelta dei fornitori, acquisto dei materiali e controllo del colore.",
+        "Stoccaggio per gli ordini, prelievo, imballaggio e spedizione finale.",
+        "Trasporto al produttore, assemblaggio del capo e verifica finale."
       ],
       "correct": 2,
-      "explanation": "Prelievo secondo l’ordine effettivo, imballaggio e spedizione al cliente finale.",
+      "explanation": "La pagina colloca gli step distributivi alla fine del percorso del parka. Dopo la messa a magazzino in attesa degli ordini, il prodotto viene prelevato secondo l'ordine effettivo, imballato e spedito al cliente. È una sequenza distinta dalle attività precedenti di fabbricazione e assemblaggio.",
       "kind": "Sequenza",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-008",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 5,
-      "question": "Quale messaggio illustra il percorso del ferro usato per costruire un’automobile Toyota?",
+      "question": "Che cosa rende evidente il racconto del ferro usato per una Toyota?",
       "options": [
-        "La natura globale e interconnessa della supply chain, con lavorazioni e trasporti svolti in paesi diversi.",
-        "Che tutte le fasi produttive si svolgono necessariamente nello stesso Paese",
-        "Che i trasporti sono irrilevanti nella produzione di automobili",
-        "Che la supply chain finisce con l'estrazione della materia prima"
+        "La catena internazionale tra estrazione, produzione e vendita.",
+        "La concentrazione di tutte le fasi produttive in un unico stabilimento nazionale.",
+        "La riduzione dei trasporti grazie a fornitori presenti vicino al cliente.",
+        "La separazione completa tra chi produce il bene e chi lo distribuisce."
       ],
       "correct": 0,
-      "explanation": "La natura globale e interconnessa della supply chain, con lavorazioni e trasporti svolti in paesi diversi.",
+      "explanation": "Nell'approfondimento, il minerale estratto in Australia raggiunge il Giappone, dove viene trasformato e impiegato in un'automobile; la vettura attraversa poi il Pacifico. La storia rende concreta la dimensione globale del network e la necessità di coordinare passaggi svolti da soggetti e Paesi diversi.",
       "kind": "Esempio",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-009",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 6,
-      "question": "Come viene definito il processo centrale delle operations?",
+      "question": "Nel lessico del capitolo, che cosa indica 'operations'?",
       "options": [
-        "Un processo che consiste unicamente nel trasporto",
-        "Un processo di trasformazione delle risorse impiegate da un’azienda nei prodotti desiderati dai clienti.",
-        "Un processo dedicato esclusivamente a immagazzinare prodotti",
-        "Un processo di vendita indipendente dalla produzione"
+        "Il trasferimento dei prodotti finiti dai magazzini ai clienti internazionali.",
+        "La trasformazione delle risorse in beni o servizi richiesti.",
+        "La previsione dei volumi di domanda nei mercati serviti.",
+        "La negoziazione con i fornitori delle condizioni di acquisto."
       ],
       "correct": 1,
-      "explanation": "Un processo di trasformazione delle risorse impiegate da un’azienda nei prodotti desiderati dai clienti.",
+      "explanation": "La pagina usa 'operations' per i processi che trasformano risorse impiegate dall'azienda nei prodotti desiderati dai clienti. L'esempio comprende sia la fabbricazione di beni fisici sia l'erogazione di un servizio informativo da parte di un call center. La trasformazione non coincide quindi con la sola produzione manifatturiera.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-010",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 6,
-      "question": "Di che cosa si occupano i processi della supply chain?",
+      "question": "Qual è l'oggetto dei processi di supply chain secondo la sezione 1.1?",
       "options": [
-        "Unicamente del controllo di qualità in fabbrica",
-        "Esclusivamente della progettazione dei prodotti",
-        "Della movimentazione di informazioni e materiali da e verso i processi produttivi e di servizio dell’azienda.",
-        "Soltanto della pubblicità rivolta ai consumatori finali"
+        "La sola trasformazione degli input in beni fisici pronti per la vendita al dettaglio.",
+        "La definizione del prezzo e delle campagne di comunicazione ai clienti.",
+        "La scelta degli obiettivi economici e finanziari dell'impresa.",
+        "Il flusso di materiali e informazioni verso e dalla produzione."
       ],
-      "correct": 2,
-      "explanation": "Della movimentazione di informazioni e materiali da e verso i processi produttivi e di servizio dell’azienda.",
+      "correct": 3,
+      "explanation": "Il testo distingue i processi di trasformazione dalle attività di supply chain, che muovono materiali e informazioni da e verso produzione e servizi. Vi rientrano i flussi in entrata, lo stoccaggio e la distribuzione verso il cliente. La distinzione aiuta a leggere le interdipendenze rappresentate nella figura 1.2.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-011",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.1 - Che cos’è l’OSCM",
+      "section": "1.1 - Che cos'è l'OSCM",
       "page": 6,
-      "question": "Quali quattro sezioni sono rappresentate nella figura 1.2 sull’organizzazione dell’OSCM?",
+      "question": "Quali quattro aree compongono lo schema OSCM della figura 1.2?",
       "options": [
-        "Marketing, finanza, logistica e risorse umane",
-        "Ricerca, vendita, contabilità e manutenzione",
-        "Acquisti, vendita, servizio clienti e marketing",
-        "Strategia e sostenibilità; processi di supply chain; processi di produzione e di servizio; pianificazione della domanda e dell’offerta."
+        "Strategia, produzione di beni e servizi, supply chain, domanda e offerta.",
+        "Marketing, produzione di beni e servizi, controllo, domanda e offerta.",
+        "Strategia, acquisti aziendali, finanza, distribuzione dei prodotti finiti.",
+        "Sostenibilità, qualità totale, vendite, gestione del personale aziendale."
       ],
-      "correct": 3,
-      "explanation": "Strategia e sostenibilità; processi di supply chain; processi di produzione e di servizio; pianificazione della domanda e dell’offerta.",
+      "correct": 0,
+      "explanation": "La figura 1.2 raffigura quattro sezioni collegate: strategia e sostenibilità, processi di produzione di beni e servizi, processi di supply chain e pianificazione della domanda e dell'offerta. Gli ingranaggi indicano che l'organizzazione dell'OSCM integra decisioni strategiche, processi operativi e pianificazione.",
       "kind": "Figura",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-012",
@@ -172,17 +181,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.2 - I processi di operations e supply chain",
       "page": 7,
-      "question": "Quali sono i cinque processi principali della supply chain elencati nel testo?",
+      "question": "Quale elenco corrisponde alle cinque categorie di processo del testo?",
       "options": [
+        "Pianificazione, acquisto, vendita, assistenza e rendicontazione.",
+        "Progettazione, approvvigionamento, assemblaggio, vendita e riciclo.",
         "Pianificazione, approvvigionamento, produzione, distribuzione e reso.",
-        "Analisi, investimento, vendita, manutenzione e controllo",
-        "Acquisti, contabilità, progettazione, marketing e vendita",
-        "Finanza, marketing, direzione, amministrazione e qualità"
+        "Previsione, produzione, inventario, fatturazione e manutenzione."
       ],
-      "correct": 0,
-      "explanation": "Pianificazione, approvvigionamento, produzione, distribuzione e reso.",
+      "correct": 2,
+      "explanation": "La sezione 1.2 suddivide i processi in pianificazione, approvvigionamento, produzione, consegna o distribuzione e reso. La figura 1.3 li colloca lungo la supply chain, mostrando che queste attività possono coinvolgere anche fornitori e clienti. L'elenco non coincide con una semplice sequenza di reparti aziendali.",
       "kind": "Elenco",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-013",
@@ -190,17 +200,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.2 - I processi di operations e supply chain",
       "page": 7,
-      "question": "Qual è la funzione del processo di pianificazione?",
+      "question": "Quale decisione appartiene alla pianificazione della supply chain?",
       "options": [
-        "Concentrarsi esclusivamente sulle richieste di pagamento",
-        "Gestire strategicamente una supply chain esistente, stabilire i requisiti e pianificare le risorse per soddisfare la domanda attesa.",
-        "Gestire soltanto i prodotti già restituiti dai clienti",
-        "Gestire la sola spedizione dei prodotti finiti"
+        "Autorizzare i pagamenti dopo la verifica delle merci ricevute e registrare gli acquisti.",
+        "Adeguare risorse e domanda prevista con indicatori di controllo.",
+        "Selezionare corrieri e programmare i trasporti verso i clienti.",
+        "Ricevere prodotti difettosi e organizzare l'assistenza post vendita."
       ],
       "correct": 1,
-      "explanation": "Gestire strategicamente una supply chain esistente, stabilire i requisiti e pianificare le risorse per soddisfare la domanda attesa.",
+      "explanation": "Per il manuale, la pianificazione serve a gestire strategicamente una supply chain esistente e a stabilire come soddisfare la domanda attesa con le risorse disponibili. Comprende anche indicatori per monitorare efficienza e qualità del valore offerto. Pagamenti, trasporti e resi appartengono invece ad altri processi descritti subito dopo.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-014",
@@ -208,17 +219,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.2 - I processi di operations e supply chain",
       "page": 7,
-      "question": "Quali attività rientrano nel processo di approvvigionamento?",
+      "question": "Quale insieme di attività caratterizza l'approvvigionamento?",
       "options": [
-        "Imballare i prodotti per la spedizione",
-        "Ricevere e smaltire i prodotti difettosi restituiti",
-        "Selezione dei fornitori, negoziazione di prezzi, consegne e pagamenti, e gestione delle relazioni con i fornitori.",
-        "Emettere gli ordini dei clienti finali"
+        "Prevedere la domanda, allocare capacità e fissare obiettivi di servizio.",
+        "Programmare i turni, controllare la produttività e realizzare prodotti finiti.",
+        "Gestire ordini clienti, scegliere corrieri e coordinare le consegne.",
+        "Scegliere fornitori, negoziare e controllare le merci ricevute."
       ],
-      "correct": 2,
-      "explanation": "Selezione dei fornitori, negoziazione di prezzi, consegne e pagamenti, e gestione delle relazioni con i fornitori.",
+      "correct": 3,
+      "explanation": "L'approvvigionamento riguarda i fornitori dei beni e servizi necessari alla produzione. Il testo cita la loro scelta, le trattative su prezzo, consegna e pagamento, il monitoraggio dei rapporti e la ricezione e verifica delle merci. Sono passaggi a monte della produzione, pur richiedendo coordinamento con le altre fasi.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-015",
@@ -226,17 +238,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.2 - I processi di operations e supply chain",
       "page": 8,
-      "question": "Qual è l’attività principale del processo di produzione?",
+      "question": "Che cosa comprende il processo di produzione nella classificazione del testo?",
       "options": [
-        "Selezionare fornitori e negoziare i prezzi",
-        "Gestire la restituzione di merci in eccesso",
-        "Organizzare soltanto il trasporto ai clienti",
-        "Realizzare il prodotto o erogare il servizio, programmando ed eseguendo le attività necessarie."
+        "Realizzare beni o servizi coordinando attività e risorse.",
+        "Scegliere i fornitori, negoziando prezzi e autorizzando i pagamenti concordati.",
+        "Trasportare i prodotti, organizzando magazzini e registrando gli ordini.",
+        "Ricevere i resi, risolvendo i reclami e offrendo assistenza successiva."
       ],
-      "correct": 3,
-      "explanation": "Realizzare il prodotto o erogare il servizio, programmando ed eseguendo le attività necessarie.",
+      "correct": 0,
+      "explanation": "La produzione è la fase in cui il prodotto viene realizzato o il servizio erogato. Il manuale aggiunge che occorrono programmazione del personale, coordinamento di materiali e attrezzature e indicatori di velocità, qualità e produttività. Le altre risposte descrivono approvvigionamento, distribuzione e reso.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-016",
@@ -244,17 +257,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.2 - I processi di operations e supply chain",
       "page": 8,
-      "question": "Quali attività rientrano nella distribuzione?",
+      "question": "Quale compito è attribuito alla distribuzione nella sezione 1.2?",
       "options": [
-        "Gestire ordini, trasporto dei prodotti, magazzini e movimentazione dei beni verso i clienti.",
-        "Scegliere le materie prime e stipulare contratti con i fornitori",
-        "Pianificare esclusivamente la domanda futura",
-        "Riprogettare la struttura dell'organizzazione"
+        "Determinare i fabbisogni futuri e fissare gli indicatori di performance.",
+        "Qualificare i fornitori e negoziare le condizioni di pagamento.",
+        "Coordinare corrieri, spostamenti, magazzini e ordini dei clienti.",
+        "Gestire prodotti difettosi e attività di assistenza post vendita."
       ],
-      "correct": 0,
-      "explanation": "Gestire ordini, trasporto dei prodotti, magazzini e movimentazione dei beni verso i clienti.",
+      "correct": 2,
+      "explanation": "Il testo presenta la distribuzione come processo logistico: selezione dei corrieri, coordinamento degli spostamenti di beni e informazioni, gestione dei magazzini e dei sistemi per ricevere ordini e incassare pagamenti. Si tratta della consegna verso grossisti o clienti, distinta dalla produzione e dai resi.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-017",
@@ -262,17 +276,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.2 - I processi di operations e supply chain",
       "page": 8,
-      "question": "Che cosa comprende il processo di reso?",
+      "question": "Quale situazione rientra nel processo di reso descritto dal manuale?",
       "options": [
-        "Definire il budget complessivo dell'azienda",
-        "Ricezione di prodotti difettosi o in eccesso, assistenza ai clienti e gestione dei prodotti resi.",
-        "Produrre nuovi articoli per i rivenditori",
-        "Selezionare i fornitori di materiali"
+        "Organizzare la consegna regolare di prodotti nuovi ai grossisti.",
+        "Ricevere prodotti difettosi o eccedenti e supportare il cliente.",
+        "Selezionare materiali prima dell'avvio delle attività produttive.",
+        "Prevedere la domanda per assegnare le risorse disponibili."
       ],
       "correct": 1,
-      "explanation": "Ricezione di prodotti difettosi o in eccesso, assistenza ai clienti e gestione dei prodotti resi.",
+      "explanation": "Il reso copre la ricezione dei prodotti difettosi o in eccesso inviati dai clienti e il supporto a chi segnala problemi con la merce consegnata. Per i servizi comprende anche le attività successive alla vendita. Il testo tratta quindi una fase di ritorno o follow up, non la distribuzione ordinaria.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-018",
@@ -280,17 +295,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.3 - Le differenze tra beni e servizi",
       "page": 8,
-      "question": "Qual è la prima differenza fondamentale indicata tra beni e servizi?",
+      "question": "Quale coppia esprime la prima differenza tra bene e servizio?",
       "options": [
-        "Beni e servizi sono entrambi sempre fisici",
-        "Un servizio è un bene che può essere conservato a magazzino",
-        "Un servizio consiste in un processo intangibile, mentre un bene è il prodotto fisico di un processo.",
-        "Un bene è intangibile, mentre un servizio è un oggetto fisico"
+        "Bene intangibile da erogare; servizio fisico da produrre e consegnare.",
+        "Bene fisico da consumare subito; servizio tangibile da immagazzinare.",
+        "Bene come relazione con il cliente; servizio come materiale lavorato.",
+        "Bene come output fisico; servizio come processo intangibile."
       ],
-      "correct": 2,
-      "explanation": "Un servizio consiste in un processo intangibile, mentre un bene è il prodotto fisico di un processo.",
+      "correct": 3,
+      "explanation": "La prima distinzione esposta nella sezione riguarda la natura dell'offerta: il bene è un risultato fisico del processo, mentre il servizio è un processo intangibile. Il testo collega questa differenza alla difficoltà di valutare un servizio prima dell'acquisto e alla rapidità con cui una nuova idea può essere imitata.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-019",
@@ -298,17 +314,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.3 - Le differenze tra beni e servizi",
       "page": 8,
-      "question": "Quale caratteristica dei beni influisce sulla possibilità di conservarli?",
+      "question": "Quale differenza riguarda il coinvolgimento del cliente?",
       "options": [
-        "I beni sono sempre prodotti solo su ordinazione",
-        "I beni sono sempre consumati nel momento della produzione",
-        "I beni non hanno alcuna dimensione fisica",
-        "I beni sono prodotti fisici che possono essere immagazzinati."
+        "Il servizio richiede interazione; il bene può essere prodotto altrove.",
+        "Il bene richiede interazione con il cliente; il servizio è sempre automatizzato in ogni situazione.",
+        "Il servizio esclude il cliente; il bene richiede presenza continua in fabbrica.",
+        "Il bene e il servizio richiedono entrambi presenza costante del cliente."
       ],
-      "correct": 3,
-      "explanation": "I beni sono prodotti fisici che possono essere immagazzinati.",
+      "correct": 0,
+      "explanation": "La seconda differenza del manuale riguarda l'interazione con il cliente: un servizio richiede una certa partecipazione, anche se talvolta breve. Se l'erogazione avviene faccia a faccia, la sede deve gestire la presenza del cliente. Un bene, invece, può essere prodotto in una struttura separata.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-020",
@@ -316,35 +333,37 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.3 - Le differenze tra beni e servizi",
       "page": 9,
-      "question": "Quale caratteristica dei servizi influisce sulla loro possibilità di immagazzinamento?",
+      "question": "Perché la capacità inutilizzata di un servizio non si conserva come un bene?",
       "options": [
-        "I servizi non possono essere immagazzinati come i beni fisici.",
-        "I servizi vengono sempre accumulati in magazzino",
-        "I servizi sono sempre prodotti prima della domanda",
-        "I servizi sono immagazzinati nello stesso modo dei beni"
+        "Perché i servizi richiedono sempre materiali fisici da sostituire.",
+        "Perché la domanda di servizi rimane costante in ogni periodo.",
+        "Perché i servizi dipendono dal tempo e non sono immagazzinabili.",
+        "Perché ogni servizio viene prodotto prima che il cliente lo chieda."
       ],
-      "correct": 0,
-      "explanation": "I servizi non possono essere immagazzinati come i beni fisici.",
+      "correct": 2,
+      "explanation": "La quarta differenza dice che i servizi sono deperibili e legati al tempo: non possono essere messi a magazzino come i beni. Un posto non venduto su un volo della settimana precedente, per esempio, non può essere recuperato dopo. Per questo capacità e domanda devono essere coordinate nel momento dell'erogazione.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-021",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.3 - Le differenze tra beni e servizi",
+      "section": "1.3.1 - Il continuum beni-servizi",
       "page": 9,
-      "question": "Qual è il continuum beni-servizi descritto nel sottoparagrafo 1.3.1?",
+      "question": "Che cosa rappresenta il continuum beni-servizi della tabella 1.1?",
       "options": [
-        "Beni e servizi costituiscono due mercati senza alcuna combinazione",
-        "Le offerte di prodotto comprendono combinazioni di beni e servizi; possono collocarsi tra beni puri e servizi puri.",
-        "Tutte le offerte sono soltanto beni fisici",
-        "Tutte le offerte sono soltanto servizi intangibili"
+        "Una scala della qualità percepita, dal prezzo minore a quello maggiore.",
+        "Una gamma di offerte, dai beni puri ai servizi puri, con forme miste.",
+        "Una sequenza obbligata che porta ogni produttore a vendere solo servizi.",
+        "Una distinzione tra imprese nazionali e reti produttive internazionali."
       ],
       "correct": 1,
-      "explanation": "Le offerte di prodotto comprendono combinazioni di beni e servizi; possono collocarsi tra beni puri e servizi puri.",
+      "explanation": "Il testo osserva che quasi tutte le offerte combinano beni e servizi. La tabella 1.1 le dispone tra due estremi, beni puri e servizi puri, includendo offerte in cui prevale un bene oppure un servizio. La posizione dipende dall'attività principale, non da un giudizio di qualità.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-022",
@@ -352,287 +371,303 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.3 - Le differenze tra beni e servizi",
       "page": 9,
-      "question": "Che cosa indica la distinzione tra servizi espliciti e impliciti?",
+      "question": "Quale esempio distingue correttamente servizi espliciti e impliciti?",
       "options": [
-        "I servizi impliciti sono sempre gratuiti e quelli espliciti a pagamento",
-        "Servizi espliciti e impliciti indicano la stessa categoria senza distinzioni",
-        "I servizi espliciti sono benefici osservabili, mentre quelli impliciti riguardano benefici percepiti come atmosfera, comodità, privacy e sicurezza.",
-        "I servizi espliciti riguardano l'atmosfera, gli impliciti il prodotto fisico"
+        "Espliciti: atmosfera e privacy; impliciti: formazione del personale.",
+        "Espliciti: prezzo e brevetti; impliciti: accesso al servizio.",
+        "Espliciti: scorte e trasporti; impliciti: tempi di produzione.",
+        "Espliciti: prestazione e accesso; impliciti: atmosfera e comodità."
       ],
-      "correct": 2,
-      "explanation": "I servizi espliciti sono benefici osservabili, mentre quelli impliciti riguardano benefici percepiti come atmosfera, comodità, privacy e sicurezza.",
+      "correct": 3,
+      "explanation": "Nel pacchetto di caratteristiche di un servizio, il manuale include i servizi espliciti, come prestazione, disponibilità e facilità di accesso, e quelli impliciti, come atteggiamento del personale, atmosfera, privacy e comodità. Le due categorie descrivono aspetti diversi dell'esperienza, entrambi rilevanti nella valutazione dell'offerta.",
       "kind": "Distinzione",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-023",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.3 - Le differenze tra beni e servizi",
+      "section": "1.3.2 - Le strategie di servitization",
       "page": 10,
-      "question": "Che cosa si intende per servitizzazione?",
+      "question": "Quale scelta esemplifica la servitizzazione definita nel manuale?",
       "options": [
-        "L'eliminazione di ogni servizio dall'offerta di un'azienda",
-        "La sostituzione di tutti i beni con prodotti immagazzinati",
-        "La riduzione dell'offerta aziendale alle sole attività produttive",
-        "L’introduzione, da parte di un’azienda, di attività di servizio nelle offerte di prodotto destinate al mercato."
+        "Aggiungere manutenzione e ricambi ai prodotti già venduti.",
+        "Ridurre i servizi di supporto per concentrarsi sul solo bene venduto nelle offerte.",
+        "Spostare la produzione di un bene in uno stabilimento estero.",
+        "Sostituire il prodotto fisico con una campagna pubblicitaria digitale."
       ],
-      "correct": 3,
-      "explanation": "L’introduzione, da parte di un’azienda, di attività di servizio nelle offerte di prodotto destinate al mercato.",
+      "correct": 0,
+      "explanation": "La servitizzazione consiste nell'introdurre attività di servizio a supporto dei prodotti offerti agli utenti attuali. Il testo cita manutenzione e fornitura di ricambi, insieme ad altri servizi legati al prodotto. Non significa necessariamente abbandonare il bene fisico: amplia ciò che l'impresa offre alla propria base installata.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-025",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.4 - Efficienza efficacia e valore",
+      "section": "1.4 - Efficienza, efficacia e valore",
       "page": 11,
-      "question": "Che cosa significa efficienza nel contesto delle operations?",
+      "question": "Quale scelta esprime l'efficienza nel senso usato dal manuale?",
       "options": [
-        "Raggiungere un obiettivo indipendentemente dalle risorse impiegate",
-        "Fare qualcosa con il minor costo possibile.",
-        "Ottenere sempre il massimo fatturato, indipendentemente dai costi",
-        "Aumentare il numero delle attività svolte, senza valutare i costi"
+        "Offrire il servizio più gradito, anche impiegando più risorse.",
+        "Ampliare l'offerta per raggiungere un maggior numero di clienti.",
+        "Aumentare il prezzo per migliorare il margine del prodotto.",
+        "Svolgere l'operazione usando il minor input di risorse possibile."
       ],
-      "correct": 1,
-      "explanation": "Fare qualcosa con il minor costo possibile.",
+      "correct": 3,
+      "explanation": "Il manuale associa l'efficienza alla capacità di svolgere un'operazione al minor costo possibile e, in termini generali, con il minor impiego di input. Questo criterio riguarda il rapporto fra risorse utilizzate e risultato operativo. Non dice da solo se l'operazione soddisfi al meglio il bisogno del cliente.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-026",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.4 - Efficienza efficacia e valore",
+      "section": "1.4 - Efficienza, efficacia e valore",
       "page": 11,
-      "question": "Che cosa significa efficacia nel contesto delle operations?",
+      "question": "Quale obiettivo descrive l'efficacia delle operations?",
       "options": [
-        "Ridurre il numero di fornitori senza altre valutazioni",
-        "Concentrarsi esclusivamente sulla quantità prodotta",
-        "Fare la cosa giusta per creare il maggior valore possibile per l’azienda.",
-        "Eseguire ogni operazione al costo minimo possibile"
+        "Operare al meglio per generare valore per l'azienda.",
+        "Ridurre sempre l'input, anche se il cliente attende più a lungo.",
+        "Minimizzare le scorte senza considerare la disponibilità del prodotto.",
+        "Standardizzare ogni servizio, indipendentemente dalle attese dei clienti."
       ],
-      "correct": 2,
-      "explanation": "Fare la cosa giusta per creare il maggior valore possibile per l’azienda.",
+      "correct": 0,
+      "explanation": "La sezione definisce l'efficacia come capacità di svolgere un'operazione nel modo migliore per generare il maggior valore possibile per l'azienda. Si distingue dall'efficienza, che pone l'attenzione sul costo o sull'input impiegato. Il confronto aiuta a valutare una decisione anche in base agli effetti sul servizio reso.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-027",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.4 - Efficienza efficacia e valore",
-      "page": 11,
-      "question": "Quale tensione può sorgere tra efficienza ed efficacia?",
+      "section": "1.4 - Efficienza, efficacia e valore",
+      "page": 12,
+      "question": "Nell'esempio della banca, quale scelta può creare tensione tra i due obiettivi?",
       "options": [
-        "Efficienza ed efficacia sono necessariamente identiche",
-        "La riduzione dei costi comporta sempre maggiore valore per il cliente",
-        "L'efficacia dipende soltanto dal numero di pezzi prodotti",
-        "Una maggiore efficienza non equivale necessariamente a maggiore efficacia: si può ridurre un costo senza migliorare il risultato desiderato."
+        "Aumentare il personale e allungare comunque l'attesa allo sportello.",
+        "Ridurre il personale e rischiare un'attesa più lunga per i clienti.",
+        "Aprire più sportelli e diminuire la capacità complessiva del servizio.",
+        "Ridurre il prezzo del servizio e aumentare i costi del personale."
       ],
-      "correct": 3,
-      "explanation": "Una maggiore efficienza non equivale necessariamente a maggiore efficacia: si può ridurre un costo senza migliorare il risultato desiderato.",
+      "correct": 1,
+      "explanation": "Il testo usa la coda in banca per distinguere i due criteri: ridurre il personale allo sportello contiene gli input, mentre ridurre l'attesa del cliente migliora l'esito del servizio. Le due finalità possono entrare in conflitto; una scelta va valutata per il costo e per il valore che produce.",
       "kind": "Confronto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-028",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.4 - Efficienza efficacia e valore",
+      "section": "1.4 - Efficienza, efficacia e valore",
       "page": 12,
-      "question": "Come viene definito il valore nella sezione 1.4?",
+      "question": "Come viene espresso il valore nella sezione 1.4?",
       "options": [
-        "Il rapporto tra qualità e prezzo pagato.",
-        "Il rapporto tra numero di addetti e numero di macchine",
-        "La differenza tra ricavi totali e costi fissi",
-        "Il rapporto tra quantità prodotta e ore lavorate"
+        "Come somma del prezzo pagato e dei costi di produzione.",
+        "Come differenza tra ricavi di vendita e spese operative.",
+        "Come rapporto fra la qualità ottenuta e il prezzo pagato.",
+        "Come numero di prodotti venduti rispetto alla capacità."
       ],
-      "correct": 0,
-      "explanation": "Il rapporto tra qualità e prezzo pagato.",
+      "correct": 2,
+      "explanation": "La pagina presenta il valore, in modo metaforico, come rapporto tra qualità e prezzo. Se l'impresa offre un prodotto migliore senza aumentare il prezzo, il valore cresce; aumenta ancora se il prezzo diminuisce. Questa nozione collega le decisioni operative a ciò che il cliente riceve per quanto paga.",
       "kind": "Definizione",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-029",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.5 - Opportunità di carriera",
+      "section": "1.5 - Le opportunità di carriera",
       "page": 12,
-      "question": "Quali tre posizioni esemplificative di responsabilità sono citate nella gestione operations e supply chain?",
+      "question": "Quale terna comprende tre ruoli elencati all'inizio della sezione 1.5?",
       "options": [
-        "Venditore, analista finanziario e addetto al marketing",
-        "Direttore di stabilimento, store manager e direttore di call center.",
-        "Responsabile contabilità, direttore finanziario e revisore",
-        "Progettista grafico, addetto stampa e responsabile pubblicità"
+        "Direttore acquisti, analista finanziario e responsabile marketing aziendale.",
+        "Controller di produzione, revisore contabile e direttore vendite.",
+        "Store manager, direttore marketing e responsabile tesoreria.",
+        "Direttore di stabilimento, store manager e direttore call center."
       ],
-      "correct": 1,
-      "explanation": "Direttore di stabilimento, store manager e direttore di call center.",
+      "correct": 3,
+      "explanation": "L'elenco delle professioni inizia con il direttore di stabilimento, lo store manager e il direttore di call center. Il manuale associa questi ruoli, rispettivamente, alla gestione delle risorse produttive e a quella del personale e del servizio al cliente nei diversi contesti. Gli altri elenchi mescolano funzioni non riportate come terna.",
       "kind": "Esempio",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-033",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.5 - Opportunità di carriera",
+      "section": "1.5 - Le opportunità di carriera",
       "page": 14,
-      "question": "Qual è il compito del controller di produzione indicato dal testo?",
+      "question": "Qual è il compito del controller di produzione nell'elenco del manuale?",
       "options": [
-        "Realizzare unicamente gli acquisti di materie prime",
-        "Pianificare e programmare i processi di produzione giornaliera.",
-        "Gestire esclusivamente la rendicontazione finanziaria",
-        "Curare soltanto le attività di marketing"
+        "Pianificare i processi della produzione di ogni giorno.",
+        "Controllare i contratti e i pagamenti dei fornitori principali.",
+        "Definire la strategia competitiva insieme alla direzione aziendale.",
+        "Verificare la qualità con carte di controllo e campionamenti."
       ],
-      "correct": 1,
-      "explanation": "Pianificare e programmare i processi di produzione giornaliera.",
+      "correct": 0,
+      "explanation": "Nell'elenco delle professioni, il controller di produzione pianifica e programma i processi quotidiani di produzione. È un ruolo diverso dal direttore del controllo qualità, che applica strumenti statistici ai prodotti, e dal direttore operativo, cui la sezione successiva attribuisce decisioni strategiche più ampie.",
       "kind": "Ruolo",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-036",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.1 - Produzione snella, JIT e qualità totale",
       "page": 15,
-      "question": "Qual è il principio del Just-in-Time descritto nel testo?",
+      "question": "Quale gestione delle scorte descrive il Just in Time nel testo?",
       "options": [
-        "Produrre soltanto quanto serve, quando serve, eliminando scorte e sprechi superflui.",
-        "Produrre grandi quantità prima della domanda per aumentare le scorte",
-        "Mantenere scorte elevate in ogni fase del processo",
-        "Produrre sempre senza considerare quando serve il materiale"
+        "Accumularne grandi quantità prima di ogni fase della lavorazione.",
+        "Far arrivare quantità minime solo quando servono alla lavorazione.",
+        "Azzerare tutti i controlli sulle scorte lungo la produzione.",
+        "Spostarle dal reparto produttivo ai punti vendita dell'impresa."
       ],
-      "correct": 0,
-      "explanation": "Produrre soltanto quanto serve, quando serve, eliminando scorte e sprechi superflui.",
+      "correct": 1,
+      "explanation": "Il manuale descrive il Just in Time come un insieme di attività integrate che consente alti volumi produttivi con quantità minime di scorte. I materiali giungono al luogo di lavorazione solo al momento dell'effettiva necessità. L'idea non è semplicemente spostare le scorte altrove o rinunciare a controllarle.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-037",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.1 - Produzione snella, JIT e qualità totale",
       "page": 15,
-      "question": "Quale impresa è associata nel testo allo sviluppo del sistema Just-in-Time?",
+      "question": "Quale relazione presenta il testo tra Just in Time e controllo della qualità totale?",
       "options": [
-        "Boeing",
-        "Toyota.",
-        "McDonald's",
-        "Apple"
+        "Il JIT sostituisce i controlli di qualità dopo la produzione.",
+        "Il controllo della qualità totale richiede grandi scorte preventive.",
+        "JIT riduce le scorte; TQC affronta le cause dei difetti.",
+        "Il TQC riguarda solo i fornitori e il JIT solo i clienti."
       ],
-      "correct": 1,
-      "explanation": "Toyota.",
+      "correct": 2,
+      "explanation": "La sezione affianca il Just in Time, orientato a scorte minime al momento del bisogno, al controllo della qualità totale, volto a individuare ed eliminare le cause dei difetti. Il manuale chiama produzione snella l'insieme di questi concetti. Questa domanda sostituisce il vecchio riferimento a Toyota, che la pagina non documenta.",
       "kind": "Esempio",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-038",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.2 - Paradigma della strategia produttiva",
       "page": 15,
-      "question": "Qual è l’idea centrale del paradigma della strategia produttiva?",
+      "question": "Quale scelta segue il paradigma della fabbrica focalizzata?",
       "options": [
-        "Considerare solo il volume, indipendentemente dal mercato",
-        "Limitare la strategia produttiva alla gestione delle fatture",
-        "Collegare la gestione e le scelte della produzione alla strategia competitiva dell’impresa.",
-        "Separare completamente le decisioni produttive dalla strategia competitiva"
+        "Puntare allo stesso tempo all'eccellenza in ogni indicatore produttivo.",
+        "Separare le decisioni di fabbrica dalla strategia competitiva aziendale.",
+        "Eliminare le differenze fra costo, qualità e flessibilità nelle scelte.",
+        "Concentrare la fabbrica su prestazioni scelte, accettando dei trade off."
       ],
-      "correct": 2,
-      "explanation": "Collegare la gestione e le scelte della produzione alla strategia competitiva dell’impresa.",
+      "correct": 3,
+      "explanation": "La sezione spiega che uno stabilimento non può eccellere contemporaneamente in tutti gli indicatori. Il management deve quindi scegliere un insieme limitato di prestazioni su cui focalizzarsi, tenendo conto dei compromessi fra costo, qualità e flessibilità. Le capacità della fabbrica diventano così parte della strategia competitiva.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-040",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.5 - Business process reengineering",
       "page": 16,
-      "question": "Che cosa significa Business Process Reengineering nella sezione 1.6.5?",
+      "question": "Quale intervento caratterizza il business process reengineering?",
       "options": [
-        "Ripensare radicalmente i processi aziendali con l’obiettivo di conseguire miglioramenti nelle prestazioni.",
-        "Conservare tutti i processi aziendali senza modificarli",
-        "Limitarsi a cambiare i nomi dei reparti",
-        "Aumentare i passaggi amministrativi senza rivedere i processi"
+        "Ripensare radicalmente i processi, eliminando fasi senza valore aggiunto.",
+        "Aumentare gradualmente i controlli, mantenendo ogni fase esistente e documentando i risultati.",
+        "Trasferire tutti i processi ai fornitori, senza modificarne la struttura.",
+        "Standardizzare le mansioni, lasciando invariati i flussi di lavoro."
       ],
       "correct": 0,
-      "explanation": "Ripensare radicalmente i processi aziendali con l’obiettivo di conseguire miglioramenti nelle prestazioni.",
+      "explanation": "Il testo associa il business process reengineering a cambiamenti radicali dei processi aziendali. Per ottenere i risultati desiderati si riesaminano le attività, si eliminano le fasi prive di valore aggiunto e si informatizzano quelle rimaste. La sezione contrappone questo intervento all'approccio graduale descritto per altre pratiche di qualità.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-042",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.7 - Gestione della supply chain",
       "page": 17,
-      "question": "Qual è l’idea alla base della gestione della supply chain descritta nel sottoparagrafo 1.6.7?",
+      "question": "Quale perimetro considera il supply chain management nella sezione 1.6.7?",
       "options": [
-        "Considerare solo i prodotti finiti e mai le informazioni",
-        "Concentrarsi soltanto sui ricavi del singolo dettagliante",
-        "Un approccio sistemico al governo dei flussi di informazioni, materiali e servizi lungo la rete di fornitura.",
-        "Gestire ogni impresa della rete in modo completamente isolato"
+        "I soli flussi fisici che avvengono entro il magazzino aziendale e il reparto acquisti.",
+        "Flussi di beni, informazioni e servizi dai fornitori ai clienti.",
+        "Le sole attività di marketing che precedono l'acquisto finale.",
+        "I pagamenti fra imprese, esclusi i processi produttivi e logistici."
       ],
-      "correct": 2,
-      "explanation": "Un approccio sistemico al governo dei flussi di informazioni, materiali e servizi lungo la rete di fornitura.",
+      "correct": 1,
+      "explanation": "Il manuale definisce la gestione della supply chain come un approccio sistemico ai flussi di informazioni, materiali e servizi. Il percorso parte dai fornitori di materie prime, attraversa fabbriche e magazzini e arriva al consumatore finale. La visione supera quindi i confini di un singolo reparto o stabilimento.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-043",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.8 - Commercio elettronico",
       "page": 17,
-      "question": "Che cosa ha favorito la diffusione del commercio elettronico descritta nella sezione 1.6.8?",
+      "question": "Quale cambiamento è collegato al commercio elettronico nel testo?",
       "options": [
-        "La scomparsa delle reti di comunicazione",
-        "La sostituzione di Internet con documenti cartacei",
-        "La rinuncia ai sistemi di vendita elettronica",
-        "L’espansione di Internet e del World Wide Web."
+        "L'impiego del Web per attività d'impresa, acquisti e coordinamento operativo.",
+        "La sostituzione di ogni trasporto fisico con documenti elettronici per tutte le consegne.",
+        "L'eliminazione della produzione a favore della sola pubblicità online.",
+        "La separazione dei sistemi informativi dalle attività di distribuzione."
       ],
-      "correct": 3,
-      "explanation": "L’espansione di Internet e del World Wide Web.",
+      "correct": 0,
+      "explanation": "La sezione collega la diffusione di Internet e del World Wide Web all'uso di pagine, moduli e motori di ricerca nell'attività d'impresa. Questi strumenti hanno modificato il modo in cui le persone raccolgono informazioni, acquistano e comunicano, e il modo in cui i responsabili coordinano produzione e distribuzione.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-045",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.10 - Corporate Social Responsibility",
       "page": 18,
-      "question": "Quali temi sono al centro della Corporate Social Responsibility nella sezione 1.6.10?",
+      "question": "Quale vincolo aggiuntivo pone la responsabilità sociale alle operations?",
       "options": [
-        "L'eliminazione di ogni relazione con i clienti",
-        "Responsabilità sociale e ambientale delle attività d’impresa.",
-        "La sola massimizzazione delle scorte industriali",
-        "La progettazione esclusiva delle singole macchine"
+        "Considerare soltanto il prezzo di vendita dei prodotti finali.",
+        "Privilegiare la velocità di produzione rispetto a ogni altro obiettivo dei reparti produttivi.",
+        "Affiancare agli obiettivi operativi la sostenibilità ambientale e sociale.",
+        "Concentrare tutte le decisioni di acquisto in un unico reparto."
       ],
-      "correct": 1,
-      "explanation": "Responsabilità sociale e ambientale delle attività d’impresa.",
+      "correct": 2,
+      "explanation": "Il paragrafo sulla responsabilità sociale richiama una crescente attenzione alle conseguenze ambientali e sociali delle attività d'impresa. La pagina successiva precisa che i responsabili delle operations devono affiancare a efficienza, flessibilità, qualità e servizio anche la sostenibilità economica di lungo periodo, ambientale e sociale.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-046",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "1.6 - Sviluppo storico",
+      "section": "1.6.11 - Digital Transformation",
       "page": 18,
-      "question": "Che cosa tratta il sottoparagrafo 1.6.11?",
+      "question": "Quale effetto attribuisce il manuale alla trasformazione digitale?",
       "options": [
-        "L'abbandono di ogni strumento informativo",
-        "La sola riduzione del numero dei fornitori",
-        "Digital Transformation: cambiamenti nelle modalità di lavoro e nei processi resi possibili dalle tecnologie digitali.",
-        "Il solo aumento delle scorte dei prodotti finiti"
+        "La rinuncia ai dati raccolti dai processi e dalle attività industriali delle fabbriche.",
+        "La riduzione del digitale alle sole comunicazioni con i clienti.",
+        "La sostituzione immediata di tutti i lavoratori nelle imprese.",
+        "Innovare processi e modelli d'impresa con tecnologie digitali."
       ],
-      "correct": 2,
-      "explanation": "Digital Transformation: cambiamenti nelle modalità di lavoro e nei processi resi possibili dalle tecnologie digitali.",
+      "correct": 3,
+      "explanation": "La trasformazione digitale è descritta come un cambiamento che attraversa settori e funzioni aziendali, fino a modificare modi di lavorare e modelli di business. Nel contesto industriale il testo cita interconnessione, grandi quantità di dati e tecnologie come robotica, analisi dei dati e simulazioni.",
       "kind": "Concetto",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-047",
@@ -640,17 +675,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.7 - Tendenze attuali",
       "page": 18,
-      "question": "Qual è il primo tema elencato tra le tendenze attuali dell’OSCM?",
+      "question": "Quale sfida apre l'elenco delle tendenze future dell'OSCM?",
       "options": [
-        "Eliminare ogni collaborazione tra imprese",
-        "Concentrare tutto il lavoro sulla singola funzione isolata",
-        "Limitare la gestione delle operations ai soli reparti produttivi",
-        "Coordinare le relazioni tra aziende distinte che hanno bisogno del sostegno reciproco."
+        "Coordinare imprese diverse che dipendono dal sostegno reciproco.",
+        "Riportare tutte le funzioni esternalizzate dentro la singola impresa.",
+        "Sostituire i produttori specializzati con negozi di proprietà.",
+        "Limitare la collaborazione fra aziende per ridurre gli scambi."
       ],
-      "correct": 3,
-      "explanation": "Coordinare le relazioni tra aziende distinte che hanno bisogno del sostegno reciproco.",
+      "correct": 0,
+      "explanation": "La prima sfida riguarda il coordinamento tra aziende distinte che hanno bisogno del sostegno reciproco. Il testo collega il tema alla crescita dell'outsourcing e di produttori specializzati, resa più praticabile da comunicazioni rapide e poco costose. Più attività attraversano i confini aziendali, più serve coordinamento.",
       "kind": "Elenco",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-048",
@@ -658,17 +694,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.7 - Tendenze attuali",
       "page": 19,
-      "question": "Qual è il secondo tema elencato tra le tendenze attuali dell’OSCM?",
+      "question": "Quale problema è centrale nell'ottimizzazione dei network globali?",
       "options": [
-        "Ottimizzare i network globali di fornitura, produzione e distribuzione.",
-        "Evitare completamente i collegamenti internazionali",
-        "Considerare soltanto la fabbrica e ignorare i trasporti",
-        "Eliminare la pianificazione dei flussi tra le imprese"
+        "Eliminare la condivisione delle informazioni fra unità lontane.",
+        "Usare i dati disponibili per coordinare scorte, trasporti e impianti.",
+        "Concentrare ogni decisione in un Paese senza valutare le alternative.",
+        "Limitare la pianificazione globale ai soli ordini dei clienti."
       ],
-      "correct": 0,
-      "explanation": "Ottimizzare i network globali di fornitura, produzione e distribuzione.",
+      "correct": 1,
+      "explanation": "La seconda tendenza riguarda i network globali di fornitura, produzione e distribuzione. I sistemi informativi rendono disponibili molti dati; il problema gestionale è come usarli, compresa la scelta tra controllo centrale e autonomia locale. Il testo cita scorte, trasporti e impianti come ambiti da coordinare meglio.",
       "kind": "Elenco",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-049",
@@ -676,17 +713,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.7 - Tendenze attuali",
       "page": 19,
-      "question": "Qual è il terzo tema elencato tra le tendenze attuali dell’OSCM?",
+      "question": "Quale esempio illustra l'aumento della co-produzione di beni e servizi?",
       "options": [
-        "Ridurre ogni offerta a un prodotto esclusivamente fisico",
-        "Aumentare la co-produzione di beni e servizi.",
-        "Separare rigorosamente ogni servizio da ogni bene",
-        "Eliminare i contatti fra cliente e azienda"
+        "Impedire al cliente di seguire direttamente i propri ordini online.",
+        "Affidare le richieste dei clienti soltanto a intermediari esterni.",
+        "Permettere al cliente di eseguire e monitorare ordini via Internet.",
+        "Rendere la produzione indipendente dalle informazioni dei clienti."
       ],
-      "correct": 1,
-      "explanation": "Aumentare la co-produzione di beni e servizi.",
+      "correct": 2,
+      "explanation": "Il testo lega la co-produzione alle nuove possibilità di interazione diretta offerte da Internet. Il cliente può inserire e monitorare gli ordini, svolgendo una parte del processo di servizio grazie alla condivisione delle informazioni. Questo può ridurre passaggi interni e migliorare il servizio percepito.",
       "kind": "Elenco",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-050",
@@ -694,17 +732,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.7 - Tendenze attuali",
       "page": 19,
-      "question": "Qual è il quarto tema elencato tra le tendenze attuali dell’OSCM?",
+      "question": "Quale rischio evidenzia il testo nella gestione dei punti di contatto con il cliente?",
       "options": [
-        "Limitarsi a gestire i soli costi delle materie prime",
-        "Interrompere i canali di comunicazione con i clienti",
-        "Gestione dei punti di contatto con il cliente.",
-        "Evitare ogni rapporto con il cliente"
+        "Scorte più alte quando il magazzino risponde più rapidamente nei mercati serviti.",
+        "Costi di trasporto minori quando aumentano le consegne.",
+        "Tempi produttivi più brevi quando diminuiscono gli ordini.",
+        "Perdita di clienti quando i tagli al supporto peggiorano il servizio."
       ],
-      "correct": 2,
-      "explanation": "Gestione dei punti di contatto con il cliente.",
+      "correct": 3,
+      "explanation": "La quarta tendenza mette in guardia dai tagli indiscriminati al personale di assistenza e alle casse. Un risparmio diretto può produrre attese e frustrazione, fino a far perdere clienti. Il manuale invita perciò a considerare sia il costo del personale sia il costo meno visibile di un servizio insoddisfacente.",
       "kind": "Elenco",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-052",
@@ -712,17 +751,18 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.7 - Tendenze attuali",
       "page": 19,
-      "question": "Qual è il sesto tema elencato tra le tendenze attuali dell’OSCM?",
+      "question": "Quale sfida descrive il sesto punto delle tendenze attuali?",
       "options": [
-        "Sostenibilità e triple bottom line.",
-        "Concentrarsi esclusivamente sulla quantità prodotta",
-        "Considerare unicamente i costi di trasporto",
-        "Limitare ogni decisione al solo profitto immediato"
+        "Tenere in equilibrio risultati economici, persone e impatto ambientale.",
+        "Valutare le operations solo attraverso il profitto di breve periodo dell'impresa.",
+        "Separare le condizioni di lavoro dagli obiettivi delle operations.",
+        "Aumentare la produzione senza considerare l'uso delle risorse."
       ],
       "correct": 0,
-      "explanation": "Sostenibilità e triple bottom line.",
+      "explanation": "Il sesto punto tratta sostenibilità e triple bottom line. Al risultato economico affianca le condizioni dei dipendenti e l'impatto sull'ambiente. Il testo considera anche prodotti e processi che non inquinino e non esauriscano le risorse. La sfida per le operations è tenere insieme queste dimensioni.",
       "kind": "Elenco",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-053",
@@ -730,53 +770,56 @@
       "chapter": "Capitolo 1 · Introduzione alla materia",
       "section": "1.7 - Tendenze attuali",
       "page": 19,
-      "question": "Quali tre dimensioni della triple bottom line vengono indicate nel testo?",
+      "question": "Quali dimensioni include la triple bottom line descritta a pagina 19?",
       "options": [
-        "Marketing, finanza e operations",
-        "Economica, ambientale e sociale.",
-        "Produzione, distribuzione e approvvigionamento",
-        "Qualità, velocità e flessibilità"
+        "Prezzo, velocità di consegna e disponibilità delle scorte dei prodotti finiti.",
+        "Risultati economici, condizioni delle persone e impatto ambientale.",
+        "Qualità del prodotto, efficienza dei processi e quota di mercato.",
+        "Produzione, distribuzione e gestione dei prodotti restituiti."
       ],
       "correct": 1,
-      "explanation": "Economica, ambientale e sociale.",
+      "explanation": "La pagina spiega la triple bottom line con tre prospettive: l'azienda deve generare profitti, offrire buone condizioni e opportunità di crescita ai dipendenti e ridurre gli effetti negativi sull'ambiente. La nota a margine la riassume come sfera economica, persone coinvolte e impatto ambientale della strategia.",
       "kind": "Elenco",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-054",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "Casi di studio",
+      "section": "Caso 1.1 - Il Purchasing Managers Index",
       "page": 21,
-      "question": "A quale indicatore si riferisce il caso 1.1?",
+      "question": "Quali grandezze entrano nella costruzione del PMI del caso 1.1?",
       "options": [
-        "Economic Order Quantity (EOQ)",
-        "Material Requirements Planning (MRP)",
-        "Purchasing Managers Index (PMI).",
-        "Overall Equipment Effectiveness (OEE)"
+        "Prezzi al consumo, tassi di interesse, imposte e spesa pubblica.",
+        "Ricavi, margini di profitto, quote di mercato e dividendi.",
+        "Ordini, produzione, consegne dei fornitori, scorte e occupazione.",
+        "Esportazioni, cambi valutari, investimenti e bilancia commerciale."
       ],
       "correct": 2,
-      "explanation": "Purchasing Managers Index (PMI).",
+      "explanation": "Il caso 1.1 presenta il PMI come indice ricavato mensilmente da dati del comparto manifatturiero. Fra gli indicatori citati figurano andamento degli ordini, volumi di produzione, consegne dei fornitori, livelli delle scorte e occupazione. Sono grandezze connesse a decisioni e flussi tipici delle operations.",
       "kind": "Caso",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     },
     {
       "id": "JC01-055",
       "book": "Jacobs & Chase · Operations Management",
       "chapter": "Capitolo 1 · Introduzione alla materia",
-      "section": "Casi di studio",
+      "section": "Caso 1.2 - Festa al fast-food",
       "page": 21,
-      "question": "Quali tre catene di fast-food vengono citate nel caso 1.2?",
+      "question": "Che cosa invita a confrontare il caso 1.2 visitando più fast-food?",
       "options": [
-        "Toyota, Ford e General Motors",
-        "Boeing, Airbus e Embraer",
-        "Apple, Microsoft e IBM",
-        "McDonald’s, Wendy’s e Burger King."
+        "Il design dei locali e la pubblicità delle tre catene nazionali.",
+        "I bilanci annuali e la redditività dei rispettivi ristoranti.",
+        "Le ricette e il contenuto nutrizionale degli hamburger venduti.",
+        "I processi di ordinazione, preparazione e gestione delle richieste."
       ],
       "correct": 3,
-      "explanation": "McDonald’s, Wendy’s e Burger King.",
+      "explanation": "Il caso propone di osservare almeno due ristoranti che preparano hamburger e di confrontare le loro operations. Le domande guidano l'osservazione di acquisizione degli ordini, preparazione anticipata o su richiesta, ordini speciali, cottura, confezionamento e gestione di patatine e bibite. Non fornisce una classifica delle catene.",
       "kind": "Caso",
-      "status": "Da verificare sul PDF originale"
+      "status": "Verificata sul PDF scansionato",
+      "explanationType": "Parafrasi"
     }
   ]
 }
